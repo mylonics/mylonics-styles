@@ -1,7 +1,7 @@
 /*
  * Mylonics Brand Fonts
  *
- * K2D          — Headings, brand title display (weight 600)
+ * K2D          — Headings, brand title display (weights 200, 400)
  * Roboto       — Body text (weights 300, 400, 500, 700)
  * Roboto Mono  — Code / monospace (weights 400, 500)
  *
@@ -13,7 +13,7 @@
  *   code, pre { font-family: var(--ml-font-mono); }
  */
 
-@import url('https://fonts.googleapis.com/css2?family=K2D:wght@600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Roboto+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@200;400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Roboto+Mono:wght@400;500&display=swap');
 
 :root {
   --ml-font-heading: 'K2D', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;

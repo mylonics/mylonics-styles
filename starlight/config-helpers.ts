@@ -48,9 +48,9 @@ export function mylonicsStarlightDefaults(
     headOptions = {},
   } = options;
 
-  const social: Record<string, string> = {};
+  const social: Array<{ icon: string; label: string; href: string }> = [];
   if (github) {
-    social.github = github;
+    social.push({ icon: 'github', label: 'GitHub', href: github });
   }
 
   return {
