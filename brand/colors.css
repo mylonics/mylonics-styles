@@ -1,0 +1,49 @@
+/*
+ * Mylonics Brand Colors
+ *
+ * Canonical color definitions used across all Mylonics web properties.
+ * Import this file anywhere you need access to brand colors as CSS custom properties.
+ *
+ * Primary brand blue: #0092ca
+ */
+
+:root {
+  /* ── Primary Brand Blue ─────────────────────────────────────────────── */
+  --ml-blue-50: #e6f5fc;
+  --ml-blue-100: #cce9f9;
+  --ml-blue-200: #99d3f3;
+  --ml-blue-300: #66beed;
+  --ml-blue-400: #33a8e7;
+  --ml-blue-500: #0092ca;
+  --ml-blue-600: #0079aa;
+  --ml-blue-700: #005f85;
+  --ml-blue-800: #004661;
+  --ml-blue-900: #002c3d;
+  --ml-blue-950: #001520;
+
+  /* ── Accent Indigo (links, interactive elements) ────────────────────── */
+  --ml-accent-50: #eef2ff;
+  --ml-accent-100: #e0e7ff;
+  --ml-accent-200: #c7d2fe;
+  --ml-accent-300: #a5b4fc;
+  --ml-accent-400: #818cf8;
+  --ml-accent-500: #4051b5;
+  --ml-accent-600: #2c3e9c;
+  --ml-accent-700: #1e3a8a;
+  --ml-accent-800: #1e2f6d;
+  --ml-accent-900: #1a254f;
+  --ml-accent-950: #0f172a;
+
+  /* ── Neutral grays ──────────────────────────────────────────────────── */
+  --ml-gray-50: #f8f9fa;
+  --ml-gray-100: #f1f3f5;
+  --ml-gray-200: #dee2e6;
+  --ml-gray-300: #ced4da;
+  --ml-gray-400: #adb5bd;
+  --ml-gray-500: #6c757d;
+  --ml-gray-600: #555555;
+  --ml-gray-700: #495057;
+  --ml-gray-800: #343a40;
+  --ml-gray-900: #212529;
+  --ml-gray-950: #0d1117;
+}

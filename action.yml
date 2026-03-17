@@ -1,0 +1,27 @@
+name: 'Setup Mylonics Styles'
+description: 'Clones the mylonics-styles repo into the workspace for shared brand assets, Starlight theme, and Tailwind tokens.'
+
+inputs:
+  path:
+    description: 'Destination path (relative to the workspace root) where the repo will be cloned.'
+    required: false
+    default: 'mylonics-styles'
+  ref:
+    description: 'Git ref (branch, tag, or SHA) to checkout.'
+    required: false
+    default: 'main'
+  token:
+    description: 'GitHub token with read access to mylonics/mylonics-styles. Defaults to the workflow token.'
+    required: false
+    default: ${{ github.token }}
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Clone mylonics-styles
+      uses: actions/checkout@v4
+      with:
+        repository: mylonics/mylonics-styles
+        ref: ${{ inputs.ref }}
+        path: ${{ inputs.path }}
+        token: ${{ inputs.token }}

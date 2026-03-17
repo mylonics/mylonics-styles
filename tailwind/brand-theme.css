@@ -1,0 +1,27 @@
+/*
+ * Mylonics Brand — Tailwind CSS Theme Extension
+ *
+ * Provides the Mylonics brand blue palette as Tailwind `@theme` tokens.
+ * Import this file in the main site's global.css to keep brand colors
+ * in sync with the canonical values in brand/colors.css.
+ *
+ * Usage:
+ *   @import 'mylonics-styles/tailwind/brand-theme.css';
+ *
+ * Then use standard Tailwind utilities: bg-blue-500, text-blue-700, etc.
+ */
+
+@theme {
+  /* Mylonics brand blue — primary (#0092ca) */
+  --color-blue-50: #e6f5fc;
+  --color-blue-100: #cce9f9;
+  --color-blue-200: #99d3f3;
+  --color-blue-300: #66beed;
+  --color-blue-400: #33a8e7;
+  --color-blue-500: #0092ca;
+  --color-blue-600: #0079aa;
+  --color-blue-700: #005f85;
+  --color-blue-800: #004661;
+  --color-blue-900: #002c3d;
+  --color-blue-950: #001520;
+}
